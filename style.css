@@ -1,0 +1,145 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: arial, sans-serif;
+    box-sizing: border-box;
+}
+ 
+
+body {
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+   
+  nav{
+    width:100%; 
+    list-style:none;
+    text-align:center;
+    padding-top: 3px;
+  }
+
+  a.menu {
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    padding:0 5px;
+    background: lightgrey;
+    color: darkred;
+    font-family: georgia;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    transition: all 0.4s ease;
+    
+}
+
+a.menu:hover {
+    font-size: 20px;
+    background-color: darkslategrey;
+    color: darkgoldenrod;
+}  
+
+
+.photo2 {
+    margin: 5px;
+    width: 300px;
+    background: white;
+    box-sizing: content-box;
+    display: flex;
+    transition-duration: 0.5s;
+    will-change: transform;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+
+.photo2 img {
+    flex-basis: 100%;
+    width: 300px;
+    border: 1px solid black; 
+    
+  }  
+
+.photo2:hover {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  
+.photo2 figcaption {
+    margin-top: 0.5px;
+    color: darkslategrey;
+    font-weight: bold;
+  }
+
+.photo1 {
+    margin: 5px;
+    width: 300px;
+    background: white;
+    box-sizing: content-box;
+    display: flex;
+    transition-duration: 0.5s;
+    will-change: transform;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+
+.photo1 img {
+    flex-basis: 100%;
+    width: 300px;
+    border: 1px solid black; 
+    
+  }  
+
+.photo1:hover {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  
+.photo1 figcaption {
+    margin-top: 0.5px;
+    color: red;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-type: circle;
+    margin-top: 40px;
+    padding-right: 80%;
+    
+}
+
+  ul2 {
+  list-style-type: circle;
+  margin-top: -865px;
+  padding-right: 60%;
+  
+}
+
+.iframe-container{
+  margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.iframe-containerr{
+  margin: 20px;
+  display:inline-block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1.8px solid rgb(0, 0, 0);
+  
+  
+}
+
+
+
+/**/
