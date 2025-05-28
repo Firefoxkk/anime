@@ -99,20 +99,14 @@ a.menu:hover {
   
 }
 
-.iframe-containerr{
+.iframe-container{
   margin: 20px;
   display:inline-block;
   flex-wrap: wrap;
   justify-content: space-around;
   border: 1.8px solid rgb(0, 0, 0);  
   
-  
 }
 
-.photo3 figcaption {
-    margin-top: 0.5px;
-    color: yellow;
-    font-weight: bold;
-  }
 
 /**/
