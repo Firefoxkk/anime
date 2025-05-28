@@ -77,6 +77,44 @@ a.menu:hover {
     font-weight: bold;
   }
 
+.photo1 {
+    margin: 5px;
+    width: 300px;
+    background: white;
+    box-sizing: content-box;
+    display: flex;
+    transition-duration: 0.5s;
+    will-change: transform;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
+
+.photo1 img {
+    flex-basis: 100%;
+    width: 300px;
+    border: 1px solid black; 
+    
+  }  
+
+.photo1:hover {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  
+.photo1 figcaption {
+    margin-top: 0.5px;
+    color: red;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
   ul {
     list-style-type: circle;
     margin-top: 40px;
