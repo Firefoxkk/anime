@@ -49,38 +49,6 @@ a.menu:hover {
     color: darkgoldenrod;
 }  
 
-.photo3 {
-    margin: 10px;
-    width: 300px;
-    background: white;
-    box-sizing: content-box;
-    display: flex;
-    transition-duration: 0.5s;
-    will-change: transform;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-  }
-
-.photo3 img {
-    flex-basis: 100%;
-    width: 300px;
-    border: 1px solid black; 
-    
-  }  
-
-.photo3:hover {
-    opacity: 1;
-    transform: scale(0.8);
-  }
-  
-.photo3 figcaption {
-    margin-top: 0.5px;
-    color: blue;
-    font-weight: bold;
-  }
-
 .photo2 {
     margin: 10px;
     width: 300px;
